@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree</title>
+    <style>
+        .family-tree {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+        }
+        .parents {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            margin-bottom: 30px;
+        }
+        .person {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #4CAF50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .connection {
+            width: 2px;
+            height: 30px;
+            background-color: #333;
+            margin: 0 auto;
+        }
+        .horizontal-line {
+            width: 100px;
+            height: 2px;
+            background-color: #333;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="family-tree">
+        <div class="parents">
+            <div class="person">Mom</div>
+            <div class="person">Dad</div>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="connection"></div>
+        <div class="person">Son</div>
+    </div>
+</body>
+</html>
